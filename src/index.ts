@@ -1,3 +1,3 @@
 import { testFn } from "./test";
 
-testFn(1234); 
+testFn("Asd"); 

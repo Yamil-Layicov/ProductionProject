@@ -1,5 +1,5 @@
-export function testFn(arg: number): string {
+export function testFn(arg: string): string {
    console.log("webpack works!");
 
-   return ``;
+   return arg;
 }
