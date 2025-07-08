@@ -3,5 +3,9 @@
   "exeam_description": "Это тестовый экзамен.",
   "translation": "Русский",
   "main_page": "Главная страница",
-  "not_found": "Не найдено"
+  "about_page": "О странице",
+  "not_found": "Не найдено",
+  "throw error": "Выбросить ошибку",
+  "Refresh_page": "Обновить страницу",
+  "An_unexpected_error_occurred": "Произошла непредвиденная ошибка"
 }

@@ -1,5 +1,10 @@
 {
+  "An_unexpected_error_occurred": "An_unexpected_error_occurred",
+  "Refresh_page": "Refresh_page",
+  "a": "a",
+  "about_page": "about_page",
   "main_page": "main_page",
   "not_found": "not_found",
+  "throw error": "throw error",
   "translation": "translation"
 }

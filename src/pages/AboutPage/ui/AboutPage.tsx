@@ -4,7 +4,7 @@ const AboutPage = () => {
     const { t } = useTranslation();
     return (
         <div>
-            {t('main_page')}
+            {t('about_page')}
         </div>
     );
 };

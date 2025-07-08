@@ -3,5 +3,9 @@
   "exeam_description": "This is a test exam.",
   "translation": "English",
   "main_page": "Main Page",
-  "not_found": "Not Found"
+  "about_page": "About Page",
+  "not_found": "Not Found",
+  "throw error": "Throw Error",
+  "Refresh_page": "Refresh page",
+  "An_unexpected_error_occurred": "An unexpected error occurred"
 }
