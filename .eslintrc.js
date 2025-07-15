@@ -40,10 +40,19 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'linebreak-style': 'off',
         'no-trailing-spaces': 'off',  
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
-        'max-len': ['error', { ignoreComments: true }],
+        'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
+        'max-len': ['error', { ignoreComments: true, code: 120 }],
     },
     globals: {
         __IS_DEV__: true,
     },
+    ovverrides: [
+        {
+            files: ['**/src/**/*.test.ts', '**/src/**/*.test.tsx'],
+            rules: {
+                'i18next/no-literal-string': 'off',
+                'max-len': 'off',
+            },
+        },
+    ],
 }; 
